@@ -5,14 +5,16 @@ div {
   text-align: center;
 }
 h1 {
-  font-family: "IM Fell DW Pica", Georgia, Serif;
-  font-size: 30pt;
+  font-family: Neuton, Georgia, Serif;
+  font-size: 45pt;
+  letter-spacing: 1px;
   font-weight: 200;
   text-shadow: 1px 1px 1px #fff;
+  margin: 0 0 0;
 }
 p {
   width: 650px;
-  font-family: "IM Fell DW Pica", Georgia, Serif;
+  font-family: Neuton, Georgia, Serif;
   margin: 1em auto;
   text-align: justify;
   font-size: 16pt;
@@ -99,4 +101,9 @@ form input#submit {
   width: 520px;
   margin: 1em 0;
   text-align: left;
+}
+
+p.subtitle {
+  text-align: center;
+
 }
