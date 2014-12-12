@@ -107,3 +107,11 @@ p.subtitle {
   text-align: center;
 
 }
+
+p.footnote {
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #dedede;
+}
