@@ -1,23 +1,19 @@
 body {
 }
 div {
-  margin: 10% auto;
+  margin: 10px auto 0;
   text-align: center;
 }
-h1 {
-  font-family: Neuton, Georgia, Serif;
-  font-size: 45pt;
-  letter-spacing: 1px;
-  font-weight: 200;
-  text-shadow: 1px 1px 1px #fff;
-  margin: 0 0 0;
+#logo {
+  margin: 0 0 0px;
+  height: 350px;
 }
 p {
   width: 650px;
   font-family: Neuton, Georgia, Serif;
-  margin: 1em auto;
+  margin: 0.5em auto 1em;
   text-align: justify;
-  font-size: 16pt;
+  font-size: 15pt;
   line-height: 1.4em;
   font-weight: 200;
   color: #333
