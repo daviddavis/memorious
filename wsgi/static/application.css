@@ -5,16 +5,16 @@ div {
   text-align: center;
 }
 #logo {
-  margin: 0 0 0px;
-  height: 350px;
+  margin: 40px 0 30px;
+  height: 400px;
 }
 p {
   width: 650px;
   font-family: Neuton, Georgia, Serif;
   margin: 0.5em auto 1em;
   text-align: justify;
-  font-size: 15pt;
-  line-height: 1.4em;
+  font-size: 12.5pt;
+  line-height: 1.3em;
   font-weight: 200;
   color: #333
 }
