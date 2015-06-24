@@ -1,6 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
+  <img src="{{ url_for('static', filename = 'memorious.png') }}" id='logo'>
+
+  <p class="links">
+    <a href="https://twitter.com/davidtdavis"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/daviddavis"><i class="fa fa-github"></i></a>
+    <a href="http://blog.memorious.net"><i class="fa fa-pencil"></i></a>
+    <a href="http://goodreads.com/daviddavis"><img src="/static/goodreads.png" alt="goodreads" class="goodreads" /></a>
+    <a href="{{ url_for("contact") }}"><i class="fa fa-envelope-o"></i></a>
+  </p>
+
   <p>
     &ldquo;I remember him (I scarcely have the right to use this ghostly verb; only one man on earth deserved the right, and he is dead), I remember him with a dark passionflower in his hand, looking at it
     as no one has ever looked at such a flower, though they might look from the twilight of day until the twilight of night, for a whole life long. I remember him, his face immobile and Indian-like,
@@ -8,15 +18,9 @@
     mat&eacute; tea, bearing the arms of the Banda Oriental; I remember, in the window of the house, a yellow rush mat, and beyond, a vague marshy landscape. I remember clearly his voice, the deliberate,
     resentful nasal voice of the old Eastern Shore man, without the Italianate syllables of today. I did not see him more than three times; the last time, in 1887.&rdquo;
   </p>
+
   <p style="text-align: right">
     &mdash; Jorge Luis Borges, &ldquo;Funes the Memorious&rdquo;
-  </p>
-  <p class="links">
-    <a href="https://twitter.com/davidtdavis"><i class="fa fa-twitter"></i></a>
-    <a href="https://github.com/daviddavis"><i class="fa fa-github"></i></a>
-    <a href="http://blog.memorious.net"><i class="fa fa-pencil"></i></a>
-    <a href="http://goodreads.com/daviddavis"><img src="/static/goodreads.png" alt="goodreads" class="goodreads" /></a>
-    <a href="{{ url_for("contact") }}"><i class="fa fa-envelope-o"></i></a>
   </p>
 
   <p class="footnote">

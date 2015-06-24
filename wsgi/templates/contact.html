@@ -4,11 +4,11 @@
 
   {% if success %}
 
-    <p style="text-align: center">Thank you for your message. I'll get back to you shortly.</p>
+    <p style="text-align: center; margin-top: 200px;">Thank you for your message. I'll get back to you shortly.</p>
 
   {% else %}
 
-    <p style="text-align: center">Fill out the form below to send me a message.</p>
+    <p style="text-align: center; margin-top: 200px;">Fill out the form below to send me a message.</p>
 
     <form action="{{ url_for('contact') }}" method=post>
       {{ form.csrf_token }}

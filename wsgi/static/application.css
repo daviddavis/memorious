@@ -13,7 +13,7 @@ p {
   font-family: Neuton, Georgia, Serif;
   margin: 0.5em auto 1em;
   text-align: justify;
-  font-size: 12.5pt;
+  font-size: 15pt;
   line-height: 1.3em;
   font-weight: 200;
   color: #333
@@ -25,11 +25,11 @@ a {
 }
 .links {
   text-align: center;
-  margin-top: 2em;
+  margin: 0 auto 1em;
   padding-right: 30px;
 }
 .links a {
-  font-size: 24pt;
+  font-size: 30pt;
 }
 .links a:first {
   margin-left: 0;
@@ -38,7 +38,7 @@ img.goodreads {
   opacity: .85;
   top: 5px;
   position: relative;
-  width: 30px;
+  width: 36px;
 }
 
 /* Contact form */
